@@ -1,0 +1,84 @@
+.logo>img{
+    width: 300px;
+    display: block;
+    margin: 20px;
+   
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 0px 50px;
+}
+
+span{
+    color: rgb(105, 4, 194);
+}
+
+.intro{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card > .image > img{
+   width: 300px;
+   align-items: center; 
+    object-fit: cover;
+    justify-content: center;
+}
+.card{
+    border: 2px solid black;
+    width: 40%;
+    object-fit: cover ;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+footer{
+    display: inline-block;
+    text-align: right;
+    color: blueviolet;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.promises{
+    margin: 20px;
+    text-align: justify;
+}
+.image{
+    height: 500px;
+    width: 300px;
+    background-color: black;
+    margin-top: 20px;
+    align-items: center;
+   margin: auto;
+   display: flex;
+
+}
+
+@media (max-width:800px){
+    .card{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .intro{
+        font-size: 1.5rem;
+    }
+    .logo>img{
+        width: 200px;
+    }
+
+}
