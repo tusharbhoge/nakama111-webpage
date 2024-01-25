@@ -79,6 +79,11 @@ footer{
     }
     .logo>img{
         width: 200px;
+        margin: 0px;
+    }
+
+    body{
+        margin: 10px;
     }
 
 }
